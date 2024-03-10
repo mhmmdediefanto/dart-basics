@@ -6,7 +6,7 @@ void main() {
   String? namaDepan = stdin.readLineSync();
   stdout.write("Masukkan Nama Belakang : ");
   String? namaBelakang = stdin.readLineSync();
-  String namaLengkap = namaDepan! + '' + namaBelakang!;
+  String namaLengkap = namaDepan! + ' ' + namaBelakang!;
 
   print("nama lengkap anda adalah : ${namaLengkap}");
 }
